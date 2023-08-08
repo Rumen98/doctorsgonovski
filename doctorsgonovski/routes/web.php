@@ -19,14 +19,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index']);
 
-
-Route::get('/index', HomeController::class, 'index');
-Route::get('/about', AboutController::class, 'index');
-Route::get('/blog', BlogController::class, 'index');
-Route::get('/contact', ContactController::class, 'index');
-Route::get('/blog-details', BlogDetailsController::class, 'index');
-Route::get('/doctors', DoctorsController::class, 'index');
+//Route::get('/index', [HomeController::class, 'index']);
+Route::get('/about', [AboutController::class, 'index']);
+Route::get('/blog', [BlogController::class, 'index']);
+Route::get('/contact', [ContactController::class, 'index']);
+Route::get('/blog-details', [BlogDetailsController::class, 'index']);
+Route::get('/doctors', [DoctorsController::class, 'index']);
