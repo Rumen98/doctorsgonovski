@@ -1,7 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.css'
-
 // Importing the libraries
-require('jquery');
-require('bootstrap');
-require('owl.carousel');
-require('wowjs');
+window.$ = require("jquery");
+
+window.bootstrap = require("bootstrap");
+
+window.owl.carouse = require('owl.carousel');
+window.wowjs = require('wowjs');

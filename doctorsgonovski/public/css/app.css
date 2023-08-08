@@ -17073,10 +17073,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 8px 24px;
 }
 
-.breadcrumb {
-  background-color: #f8f9fa;
-}
-
 .breadcrumb-dark .breadcrumb-item a {
   color: #00D9A5;
 }
