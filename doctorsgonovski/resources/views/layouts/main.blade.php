@@ -15,43 +15,10 @@
     </head>
 
     <body>
-
-        <div class="container-fluid">
-
+        <div class="container-fluid w-100">
             <x-navigation/>
-
-            <div class="container-fluid main-content">
-
-                {{-- <div class="mt-2 mb-2">
-
-                    <div class="row">
-
-                        <div class="col-4">
-
-                            <x-team-management/>
-
-                        </div>
-
-                        <div class="col-4">
-
-                            <x-calendar/>
-
-                        </div>
-
-                        <div class="col-4">
-
-                            <x-add-transporter/>
-
-                        </div>
-
-                    </div>
-
-                </div> --}}
-
-                <div class="ms-2 me-2">
-                    @yield('content')
-                </div>
-            </div>
+            @yield('content')
+            <x-footer/>
         </div>
         @stack('scripts')
     </body>
