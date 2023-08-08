@@ -55,7 +55,7 @@
           </div>
           <div class="col-lg-6">
             <div class="img-place custom-img-1">
-              <img src="../assets/img/bg-doctor.png" alt="">
+                <img src="{{ asset('images/doctors/doctor_1.jpg') }}">
             </div>
           </div>
         </div>
@@ -67,9 +67,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
-
           <div class="row">
-
             <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
               <div class="card-doctor">
                 <div class="header">
@@ -106,5 +104,44 @@
       </div>
     </div> <!-- .container -->
   </div> <!-- .page-section -->
+
+  <div class="page-section">
+    <div class="container">
+        <h1 class="text-center">Make an Appointment</h1>
+
+        <form class="main-form mt-5">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="Full name">
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="Email address..">
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <input type="date" class="form-control">
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <select name="departement" id="departement" class="form-select">
+                        <option value="general">General Health</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="dental">Dental</option>
+                        <option value="neurology">Neurology</option>
+                        <option value="orthopaedics">Orthopaedics</option>
+                    </select>
+                </div>
+                <div class="col-12 mb-3">
+                    <input type="text" class="form-control" placeholder="Number..">
+                </div>
+                <div class="col-12 mb-3">
+                    <textarea name="message" id="message" class="form-control" rows="6" placeholder="Enter message.."></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit Request</button>
+                </div>
+            </div>
+        </form>
+    </div> <!-- .container -->
+</div> <!-- .page-section -->
+
 
 @endsection
