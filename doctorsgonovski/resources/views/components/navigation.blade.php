@@ -25,13 +25,6 @@
         <div class="container">
             <a class="navbar-brand" href="#"><span class="text-primary">One</span>-Health</a>
 
-            <form action="#">
-                <div class="input-group input-navbar">
-                    <span class="input-group-text" id="icon-addon1"><span class="mai-search"></span></span>
-                    <input type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" aria-describedby="icon-addon1">
-                </div>
-            </form>
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupport"
                 aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,22 +33,19 @@
             <div class="collapse navbar-collapse" id="navbarSupport">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="{{ route('main.index') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link"href="{{ route('about.index') }}">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="doctors.html">Doctors</a>
+                        <a class="nav-link" href="{{ route('doctors.index') }}">Doctors</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">News</a>
+                        <a class="nav-link" href="{{ route('blog.index') }}">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-primary ml-lg-3" href="#">Login / Register</a>
+                        <a class="nav-link" href="{{ route('contact.index') }}">Contact</a>
                     </li>
                 </ul>
             </div> <!-- .navbar-collapse -->
