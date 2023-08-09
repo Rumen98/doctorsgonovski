@@ -15,7 +15,7 @@
     </head>
 
     <body>
-        <div class="container-fluid w-100">
+        <div class="container-fluid">
             <x-navigation/>
             @yield('content')
             <x-footer/>

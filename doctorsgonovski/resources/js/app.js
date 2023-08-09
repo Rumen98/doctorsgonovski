@@ -1,7 +1,13 @@
-// Importing the libraries
-window.$ = require("jquery");
+import $ from 'jquery';
+window.$ = window.jQuery = $;
 
-window.bootstrap = require("bootstrap");
+import * as Bootstrap from 'bootstrap';
 
-window.owl.carouse = require('owl.carousel');
-window.wowjs = require('wowjs');
+window.Bootstrap = Bootstrap;
+
+import owlCarousel from 'owl.carousel';
+window.owlCarousel = owlCarousel;
+
+
+import WOW from 'wowjs';
+window.WOW = WOW;

@@ -23,7 +23,7 @@
         <div class="col-md-4 py-3 wow zoomIn">
           <div class="card-service">
             <div class="circle-shape bg-secondary text-white">
-              <span class="mai-chatbubbles-outline"></span>
+                <i class="fas fa-comment-medical"></i>
             </div>
             <p><span>Chat</span> with a doctors</p>
           </div>
@@ -31,7 +31,7 @@
         <div class="col-md-4 py-3 wow zoomIn">
           <div class="card-service">
             <div class="circle-shape bg-primary text-white">
-              <span class="mai-shield-checkmark"></span>
+                <i class="fa-solid fa-shield-heart"></i>
             </div>
             <p><span>One</span>-Health Protection</p>
           </div>
@@ -39,7 +39,7 @@
         <div class="col-md-4 py-3 wow zoomIn">
           <div class="card-service">
             <div class="circle-shape bg-accent text-white">
-              <span class="mai-basket"></span>
+                <i class="fa-solid fa-stethoscope"></i>
             </div>
             <p><span>One</span>-Health Pharmacy</p>
           </div>
@@ -64,25 +64,10 @@
             <div class="col-md-6 col-lg-4 wow zoomIn">
               <div class="card-doctor">
                 <div class="header">
-                  <img src="../assets/img/doctors/doctor_1.jpg" alt="">
+                    <img src="{{ asset('images/doctors/doctor_1.jpg') }}">
                   <div class="meta">
-                    <a href="#"><span class="mai-call"></span></a>
-                    <a href="#"><span class="mai-logo-whatsapp"></span></a>
-                  </div>
-                </div>
-                <div class="body">
-                  <p class="text-xl mb-0">Dr. Stein Albert</p>
-                  <span class="text-sm text-grey">Cardiology</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 wow zoomIn">
-              <div class="card-doctor">
-                <div class="header">
-                  <img src="../assets/img/doctors/doctor_2.jpg" alt="">
-                  <div class="meta">
-                    <a href="#"><span class="mai-call"></span></a>
-                    <a href="#"><span class="mai-logo-whatsapp"></span></a>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                   </div>
                 </div>
                 <div class="body">
@@ -94,10 +79,10 @@
             <div class="col-md-6 col-lg-4 wow zoomIn">
               <div class="card-doctor">
                 <div class="header">
-                  <img src="../assets/img/doctors/doctor_3.jpg" alt="">
+                    <img src="{{ asset('images/doctors/doctor_1.jpg') }}">
                   <div class="meta">
-                    <a href="#"><span class="mai-call"></span></a>
-                    <a href="#"><span class="mai-logo-whatsapp"></span></a>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                   </div>
                 </div>
                 <div class="body">

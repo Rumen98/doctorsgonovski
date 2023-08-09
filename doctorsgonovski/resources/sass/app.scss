@@ -2,12 +2,19 @@
 @import '~bootstrap/scss/bootstrap';
 
 //Carosel
-@import "~owl.carousel/dist/assets/owl.carousel.css";
+@import "~owl.carousel/dist/assets/owl.carousel";
 
-//Animated CSS
-@import "~animate.css/animate.css";
+@import "~wowjs/css/libs/animate.css";
 
-//@import "./maicons.scss";  // Adjust the path accordingly
+
+
+// Font-Awesome
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+
 
 //Style
 @import './styles.scss';
