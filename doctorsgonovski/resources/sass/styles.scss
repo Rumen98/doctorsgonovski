@@ -6,7 +6,11 @@ body {
   }
 
 .text-orange {
-    color: orange;
+    color: orange !important;
+}
+
+.orange-text {
+    color: orange !important;
 }
 
 .bg-orange {
@@ -940,7 +944,7 @@ body {
   .navbar-light .navbar-nav .nav-link.show,
   .navbar-light .navbar-nav .nav-link.active {
     font-weight: 500;
-    color: #00D9A5;
+    color: orange;
   }
 
 
@@ -1307,7 +1311,7 @@ body {
   }
 
   .card-doctor .text-xl {
-    font-weight: 500;
+    font-weight: 200;
   }
 
   .card-doctor .header {
@@ -1839,3 +1843,47 @@ body {
     padding-left: 14px !important;
     border-radius: 40px 0 0 40px;
   }
+
+
+  /* Default styles for the button */
+.custom-btn {
+    transition: color 0.3s ease; /* Smooth transition for the color change */
+}
+
+/* Hover effect for the button */
+.custom-btn:hover {
+    color: orange !important; /* Ensure the color change applies even if other styles exist */
+    text-decoration: none;  /* Optional: to remove any underlines on hover */
+}
+
+
+
+.page-banner, .page-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+// .card-blog {
+//     max-width: 100%; /* This ensures that the card doesn't stretch beyond its natural width */
+// }
+
+/* If you want to center the pagination specifically */
+nav[aria-label="Page Navigation"] {
+    display: flex;
+    justify-content: center;
+}

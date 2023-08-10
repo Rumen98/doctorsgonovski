@@ -8,35 +8,35 @@
           <div class="row">
 
             <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
-              <div class="card-doctor">
-                <div class="header">
-                    <img src="{{ asset('images/doctors/doctor_1.jpg') }}">
-                  <div class="meta">
-                    <a href="#"><i class="fa-solid fa-phone"></i></a>
-                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                  </div>
+                <div class="card-doctor d-flex flex-column">
+                    <div class="header">
+                        <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-top" alt="Dr. Stein Albert">
+                        <div class="meta">
+                            <a href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="body mt-auto">
+                        <p class="mb-0">Д-р Иванка Кулевска-Гоновска</p>
+                        <span class="text-sm text-grey">Кардиолог</span>
+                    </div>
                 </div>
-                <div class="body">
-                  <p class="text-xl mb-0">Dr. Stein Albert</p>
-                  <span class="text-sm text-grey">Cardiology</span>
-                </div>
-              </div>
             </div>
 
             <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
-              <div class="card-doctor">
-                <div class="header">
-                    <img src="{{ asset('images/doctors/doctor_1.jpg') }}">
-                  <div class="meta">
-                    <a href="#"><i class="fa-solid fa-phone"></i></a>
-                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                  </div>
+                <div class="card-doctor d-flex flex-column">
+                    <div class="header">
+                        <img src="{{ asset('images/doctors/gonovski.jpeg') }}">
+                        <div class="meta">
+                            <a href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="body mt-auto">
+                        <p class="mb-0">Д-р Кристиян Гоновски</p>
+                        <span class="text-sm text-grey">Ортопед</span>
+                    </div>
                 </div>
-                <div class="body">
-                  <p class="text-xl mb-0">Dr. Stein Albert</p>
-                  <span class="text-sm text-grey">Cardiology</span>
-                </div>
-              </div>
             </div>
 
           </div>
@@ -47,39 +47,37 @@
 
   <div class="page-section">
     <div class="container">
-      <h1 class="text-center wow fadeInUp">Make an Appointment</h1>
-
-      <form class="main-form">
-        <div class="row mt-5 ">
-          <div class="col-12 col-sm-6 py-2 wow fadeInLeft">
-            <input type="text" class="form-control" placeholder="Full name">
-          </div>
-          <div class="col-12 col-sm-6 py-2 wow fadeInRight">
-            <input type="text" class="form-control" placeholder="Email address..">
-          </div>
-          <div class="col-12 col-sm-6 py-2 wow fadeInLeft" data-wow-delay="300ms">
-            <input type="date" class="form-control">
-          </div>
-          <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
-            <select name="departement" id="departement" class="custom-select">
-              <option value="general">General Health</option>
-              <option value="cardiology">Cardiology</option>
-              <option value="dental">Dental</option>
-              <option value="neurology">Neurology</option>
-              <option value="orthopaedics">Orthopaedics</option>
-            </select>
-          </div>
-          <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
-            <input type="text" class="form-control" placeholder="Number..">
-          </div>
-          <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
-            <textarea name="message" id="message" class="form-control" rows="6" placeholder="Enter message.."></textarea>
-          </div>
-        </div>
-
-        <button type="submit" class="btn btn-primary mt-3 wow zoomIn">Submit Request</button>
-      </form>
+        <h1 class="text-center">Запази Час</h1>
+        <form class="main-form mt-5">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-3">
+                    <input type="text" class="form-control form-control-lg" placeholder="Цяло Име..">
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <input type="text" class="form-control form-control-lg" placeholder="Имейл адрес..">
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <input type="date" class="form-control form-control-lg" placeholder="Избери Дата">
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <select name="departement" id="departement" class="form-control form-control-lg">
+                        <option value="default" cardiology>Избери Специалист</option>
+                        <option value="cardiology">Кардиолог</option>
+                        <option value="ortoped">Ортопед</option>
+                    </select>
+                </div>
+                <div class="col-12 mb-3">
+                    <input type="text" class="form-control form-control-lg" placeholder="Телефонен Номер..">
+                </div>
+                <div class="col-12 mb-3">
+                    <textarea name="message" id="message" class="form-control form-control-lg" rows="6" placeholder="Остави Бележка.."></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary custom-btn">Запази</button>
+                </div>
+            </div>
+        </form>
     </div> <!-- .container -->
-  </div> <!-- .page-section -->
+</div> <!-- .page-section -->
 
 @endsection
