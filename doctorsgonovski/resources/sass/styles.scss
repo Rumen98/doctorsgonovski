@@ -5,6 +5,30 @@ body {
     color: #343531;
   }
 
+.text-orange {
+    color: orange;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.border-orange {
+    border-color: orange;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-grey {
+    color: gray;
+}
+
+.navbar-brand:hover {
+    color: gray !important;
+}
+
   a {
     color: #07be94;
     text-decoration: none;
@@ -854,9 +878,9 @@ body {
     padding: 8px 24px;
   }
 
-  .breadcrumb {
-    background-color: #f8f9fa;
-  }
+//   .breadcrumb {
+//     background-color: #f8f9fa;
+//   }
 
   .breadcrumb-dark .breadcrumb-item a {
     color: #00D9A5;
@@ -1699,12 +1723,12 @@ body {
   }
 
   .page-footer {
-    position: relative;
-    display: block;
-    padding-top: 80px;
-    padding-bottom: 16px;
     background-color: #2D3B38;
-    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: #ffffff;
   }
 
   .page-footer h5 {
