@@ -8,7 +8,7 @@
                 </ul>
             </div>
             <div class="col-sm-6 col-lg-3 py-3">
-                <h5>More</h5>
+                <h5>Още</h5>
                 <ul class="list-unstyled">
                     <li><a href="#" class="text-decoration-none">Terms & Condition</a></li>
                     <li><a href="#" class="text-decoration-none">Privacy</a></li>
@@ -17,7 +17,7 @@
                 </ul>
             </div>
             <div class="col-sm-6 col-lg-3 py-3">
-                <h5>Our partner</h5>
+                <h5>Нашите партньори</h5>
                 <ul class="list-unstyled">
                     <li><a href="#" class="text-decoration-none">One-Fitness</a></li>
                     <li><a href="#" class="text-decoration-none">One-Drugs</a></li>
@@ -25,18 +25,19 @@
                 </ul>
             </div>
             <div class="col-sm-6 col-lg-3 py-3">
-                <h5>Contact</h5>
+                <h5>Контакти</h5>
                 <p class="mb-2">351 Willow Street Franklin, MA 02038</p>
                 <a href="#" class="text-decoration-none d-block mb-2">701-573-7582</a>
                 <a href="#" class="text-decoration-none d-block mb-3">healthcare@temporary.net</a>
 
-                <h5>Social Media</h5>
+                <h5>Социални медии</h5>
                 <div class="mt-3">
-                    <a href="#" target="_blank" class="text-decoration-none me-2"><span class="mai-logo-facebook-f"></span></a>
-                    <a href="#" target="_blank" class="text-decoration-none me-2"><span class="mai-logo-twitter"></span></a>
-                    <a href="#" target="_blank" class="text-decoration-none me-2"><span class="mai-logo-google-plus-g"></span></a>
-                    <a href="#" target="_blank" class="text-decoration-none me-2"><span class="mai-logo-instagram"></span></a>
-                    <a href="#" target="_blank" class="text-decoration-none"><span class="mai-logo-linkedin"></span></a>
+                    <a href="#" target="_blank" class="text-decoration-none me-2">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" target="_blank" class="text-decoration-none me-2">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-    </div> --}} 
+    </div> --}}
 
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm d-flex">
         <div class="container-fluid d-flex justify-content-between">
@@ -33,19 +33,19 @@
 
             <div class="collapse navbar-collapse" id="navbarSupport">
                 <ul class="navbar-nav ml-auto d-flex me-auto">
-                    {{-- <li class="nav-item active me-3">
-                        <a class="nav-link" href="{{ route('main.index') }}">Home</a>
-                    </li> --}}
-                    <li class="nav-item me-3">
+                    <li class="nav-item {{ Route::currentRouteName() == 'main.index' ? 'active' : '' }} me-3">
+                        <a class="nav-link" href="{{ route('main.index') }}">Начало</a>
+                    </li>
+                    <li class="nav-item {{ Route::currentRouteName() == 'about.index' ? 'active' : '' }} me-3">
                         <a class="nav-link" href="{{ route('about.index') }}">За нас</a>
                     </li>
-                    <li class="nav-item me-3">
+                    <li class="nav-item {{ Route::currentRouteName() == 'doctors.index' ? 'active' : '' }} me-3">
                         <a class="nav-link" href="{{ route('doctors.index') }}">Доктори</a>
                     </li>
-                    <li class="nav-item me-3">
+                    <li class="nav-item {{ Route::currentRouteName() == 'blog.index' ? 'active' : '' }} me-3">
                         <a class="nav-link" href="{{ route('blog.index') }}">Блог</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {{ Route::currentRouteName() == 'contact.index' ? 'active' : '' }} me-3">
                         <a class="nav-link" href="{{ route('contact.index') }}">Контакти</a>
                     </li>
                 </ul>
