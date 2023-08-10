@@ -2,12 +2,9 @@
     <div class="container-fluid">
         <div class="row px-md-3 g-3">
             <div class="col-sm-6 col-lg-3 py-3">
-                <h5>Company</h5>
+                <h5>Компания</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-decoration-none">About Us</a></li>
-                    <li><a href="#" class="text-decoration-none">Career</a></li>
-                    <li><a href="#" class="text-decoration-none">Editorial Team</a></li>
-                    <li><a href="#" class="text-decoration-none">Protection</a></li>
+                    <li><a href="#" class="text-decoration-none">За нас</a></li>
                 </ul>
             </div>
             <div class="col-sm-6 col-lg-3 py-3">
