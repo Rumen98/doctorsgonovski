@@ -86,7 +86,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 wow zoomIn">
+                    <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
                         <div class="card-doctor">
                           <div class="header">
                               <img src="{{ asset('images/doctors/gonovski.jpeg') }}">
