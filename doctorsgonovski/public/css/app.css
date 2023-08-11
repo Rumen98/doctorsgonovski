@@ -24383,3 +24383,31 @@ nav[aria-label="Page Navigation"] {
   display: flex;
   justify-content: center;
 }
+
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align to the left */
+}
+
+i.fa-brands {
+  font-size: 1.2rem; /* Adjust the size of the icons if necessary */
+}
+
+.page-footer .container-fluid, .page-footer .container-sm, .page-footer .container-md, .page-footer .container-lg, .page-footer .container-xl, .page-footer .container-xxl {
+  display: flex; /* Convert container to a flexbox container */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-wrap: wrap; /* Allows the content to wrap to the next line if it overflows */
+  min-height: 120px; /* Adjust for desired footer height */
+}
+
+/* Extra styles to make sure content doesn't stretch in flex container */
+.page-footer .row {
+  width: 100%;
+  justify-content: center;
+}
+
+.page-footer h5, .page-footer .h5 {
+  margin-bottom: 0.5rem; /* Adjust spacing as per preference */
+}
