@@ -26,15 +26,14 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}" defer></script>
-
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
         <!-- Styles -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
 
 
     </head>
@@ -45,6 +44,22 @@
             @yield('content')
             <x-footer/>
         </div>
+
+        <!-- Load WOW.js library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+        <!-- Initialize WOW.js -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                new WOW().init();
+            });
+        </script>
+
+        <!-- Your main JS file -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
+
+        <!-- Additional scripts that may be pushed from child views -->
         @stack('scripts')
+
     </body>
 </html>

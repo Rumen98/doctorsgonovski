@@ -1,3 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-    new WOW().init();
-});
+// document.addEventListener('DOMContentLoaded', function () {
+//     new WOW().init();
+// });

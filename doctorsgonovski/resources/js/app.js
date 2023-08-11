@@ -9,6 +9,3 @@ import owlCarousel from 'owl.carousel';
 window.owlCarousel = owlCarousel;
 
 
-import WOW from 'wowjs';
-window.WOW = WOW;
-

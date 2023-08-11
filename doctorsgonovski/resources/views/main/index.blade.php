@@ -133,5 +133,7 @@
     </div> <!-- .container -->
 </div> <!-- .page-section -->
 
+<script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
+
