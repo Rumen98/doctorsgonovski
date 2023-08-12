@@ -3,15 +3,16 @@
 @section('title', 'Home Page')
 
 @section('content')
-  <div class="page-hero bg-image overlay-dark" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}});">
-    <div class="hero-section d-flex align-items-center justify-content-center" style="height: 100vh;">
-      <div class="container text-center wow zoomIn">
-        <span class="subhead">Добре Дошли в онлайн кабинета ни от</span>
-        <h1 class="display-4">Доктори Гоновски</h1>
-        <a href="#bookAppointment" class="btn btn-primary custom-btn">Запази час</a>
-      </div>
+<div class="page-hero bg-image overlay-dark" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}}); background-size: cover; background-position: center;">
+  <div class="hero-section d-flex align-items-center justify-content-center" style="height: 100vh;">
+    <div class="container text-center wow zoomIn">
+      <span class="subhead">Добре Дошли в онлайн кабинета ни от</span>
+      <h1 class="display-4">Доктори Гоновски</h1>
+      <a href="#bookAppointment" class="btn btn-primary custom-btn">Запази час</a>
     </div>
   </div>
+</div>
+
 
   <div class="bg-light">
     <div class="page-section py-3 mt-md-n5 custom-index">
