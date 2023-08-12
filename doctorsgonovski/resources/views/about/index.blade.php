@@ -3,7 +3,7 @@
 @section('title', 'About Us')
 
 @section('content')
-<div class="page-banner overlay-dark bg-image" style="background-image: url(../assets/img/bg_image_1.jpg);">
+<div class="page-banner overlay-dark bg-image" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}});">
     <div class="banner-section">
       <div class="container text-center wow fadeInUp">
         <nav aria-label="Breadcrumb">
@@ -61,41 +61,40 @@
           </div>
         </div>
 
-        <div class="col-lg-10 mt-5">
-          <h1 class="text-center mb-5 wow fadeInUp">Нашите доктори</h1>
-          <div class="row justify-content-center">
-            <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
-                <div class="card-doctor d-flex flex-column">
-                    <div class="header">
-                        <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-top" alt="Dr. Stein Albert">
-                        <div class="meta">
-                            <a href="#"><i class="fa-solid fa-phone"></i></a>
-                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <div class="col-lg-10">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+                    <div class="card-doctor d-flex flex-column">
+                        <div class="header">
+                            <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-top">
+                            <div class="meta">
+                                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                        <div class="body mt-auto">
+                            <p class="mb-0" style="font-size: 13px">Д-р Иванка Кулевска-Гоновска</p>
+                            <span class="text-sm text-grey">Кардиолог</span>
                         </div>
                     </div>
-                    <div class="body mt-auto">
-                        <p class="mb-0">Д-р Иванка Кулевска-Гоновска</p>
-                        <span class="text-sm text-grey">Кардиолог</span>
-                    </div>
                 </div>
-            </div>
 
-            <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
-                <div class="card-doctor d-flex flex-column">
-                    <div class="header">
-                        <img src="{{ asset('images/doctors/gonovski.jpeg') }}">
-                        <div class="meta">
-                            <a href="#"><i class="fa-solid fa-phone"></i></a>
-                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+                    <div class="card-doctor d-flex flex-column">
+                        <div class="header">
+                            <img src="{{ asset('images/doctors/gonovski.jpeg') }}">
+                            <div class="meta">
+                                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="body mt-auto">
-                        <p class="mb-0">Д-р Кристиян Гоновски</p>
-                        <span class="text-sm text-grey">Ортопед</span>
+                        <div class="body mt-auto">
+                            <p class="mb-0" style="font-size: 13px">Д-р Кристиян Гоновски</p>
+                            <span class="text-sm text-grey">Ортопед</span>
+                        </div>
                     </div>
                 </div>
             </div>
-          </div>
         </div>
 
       </div>
