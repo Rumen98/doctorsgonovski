@@ -4,7 +4,7 @@
 
     <head>
 
-        <title>Doctor Gonovski</title>
+        <title>Doctors Gonovski</title>
 
         <meta charset="UTF-8">
 

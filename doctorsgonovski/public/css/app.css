@@ -24395,3 +24395,5 @@ i.fa-brands {
   background-color: #FFA500;
   color: white;
 }
+
+/* This will apply styles for screens smaller than 768px in width, typically tablets and mobile devices. Adjust the value if necessary */
