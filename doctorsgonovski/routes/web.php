@@ -29,3 +29,4 @@ Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::get('/blog-details', [BlogDetailsController::class, 'index'])->name('blog-details.index');
 Route::get('/doctors', [DoctorsController::class, 'index'])->name('doctors.index');
+

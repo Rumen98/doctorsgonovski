@@ -17,23 +17,30 @@
 <div class="page-section">
     <div class="container">
         <h1 class="text-center wow fadeInUp">Свържете се с нас</h1>
-        <form class="contact-form mt-5">
+
+        <form id="contactForm" class="contact-form mt-5" action="{{ route('contact.index') }}" method="POST">
+            @csrf
             <div class="row mb-3">
                 <div class="col-sm-6 py-2 wow fadeInLeft">
-                    <input type="text" id="fullName" class="form-control" placeholder="Цяло име.." required>
+                    <input type="text" name="fullName" id="fullName" class="form-control" placeholder="Цяло име.." required>
                 </div>
                 <div class="col-sm-6 py-2 wow fadeInRight">
-                    <input type="email" id="emailAddress" class="form-control" placeholder="Email.." required>
+                    <input type="email" name="emailAddress" id="emailAddress" class="form-control" placeholder="Email.." required>
                 </div>
                 <div class="col-12 py-2 wow fadeInUp">
-                    <input type="text" id="subject" class="form-control" placeholder="Причина.." required>
+                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Причина.." required>
                 </div>
                 <div class="col-12 py-2 wow fadeInUp">
-                    <textarea id="message" class="form-control" rows="8" placeholder="Въведете вашето съобщение.." required></textarea>
+                    <textarea name="message" id="message" class="form-control" rows="8" placeholder="Въведете вашето съобщение.." required></textarea>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary custom-btn wow zoomIn">Изпрати</button>
+            <button type="submit" class="btn btn-primary custom-btn wow zoomIn" onclick="handleSubmitForm(event)">Изпрати</button>
         </form>
+
+        <div id="successAlert" class="alert alert-orange" role="alert" style="display: none;">
+            Благодарим Ви, че се свързахте с нас!
+        </div>
+
     </div>
 </div>
 
@@ -47,5 +54,7 @@
         </div>
     </div>
 </div>
+
+<script src="{{ asset('js/main.js') }}"></script>
 
 @endsection

@@ -24390,3 +24390,8 @@ i.fa-brands {
   width: 100%;
   justify-content: center;
 }
+
+.alert-orange {
+  background-color: #FFA500;
+  color: white;
+}
