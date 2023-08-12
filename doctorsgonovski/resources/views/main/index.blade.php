@@ -5,7 +5,7 @@
 @section('content')
   <div class="page-hero bg-image overlay-dark" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}});">
     <div class="hero-section d-flex align-items-center justify-content-center" style="height: 100vh;">
-      <div class="container text-center">
+      <div class="container text-center wow zoomIn">
         <span class="subhead">Добре Дошли в онлайн кабинета ни от</span>
         <h1 class="display-4">Доктори Гоновски</h1>
         <a href="#bookAppointment" class="btn btn-primary custom-btn">Запази час</a>
@@ -18,7 +18,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service">
+            <div class="card-service wow fadeInUp">
               <div class="circle-shape bg-secondary text-white">
                     <i class="fas fa-comment-medical"></i>
               </div>
@@ -26,7 +26,7 @@
             </div>
           </div>
           <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service">
+            <div class="card-service wow fadeInUp">
               <div class="circle-shape bg-primary text-white">
                     <i class="fa-solid fa-shield-heart"></i>
               </div>
@@ -34,7 +34,7 @@
             </div>
           </div>
           <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service">
+            <div class="card-service wow fadeInUp">
               <div class="circle-shape bg-accent text-white">
                     <i class="fa-solid fa-stethoscope"></i>
               </div>
@@ -48,7 +48,7 @@
     <div class="page-section pb-0">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 py-3">
+          <div class="col-lg-6 py-3 wow fadeInUp">
             <h1>Добре Дошли в нашия<br> кабинет</h1>
             <p class="text-grey mb-4">Предлагаме ви прегледи свързани с кардиологични
               и ортопедични проблеми. Вашето здраве е най-важното нещо както за вас, така и за нас.
@@ -61,14 +61,14 @@
                 <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
                     <div class="card-doctor d-flex flex-column">
                         <div class="header">
-                            <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-top" alt="Dr. Stein Albert">
+                            <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-top">
                             <div class="meta">
                                 <a href="#"><i class="fa-solid fa-phone"></i></a>
                                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                             </div>
                         </div>
                         <div class="body mt-auto">
-                            <p class="mb-0">Д-р Иванка Кулевска-Гоновска</p>
+                            <p class="mb-0" style="font-size: 13px">Д-р Иванка Кулевска-Гоновска</p>
                             <span class="text-sm text-grey">Кардиолог</span>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                             </div>
                         </div>
                         <div class="body mt-auto">
-                            <p class="mb-0">Д-р Кристиян Гоновски</p>
+                            <p class="mb-0" style="font-size: 13px">Д-р Кристиян Гоновски</p>
                             <span class="text-sm text-grey">Ортопед</span>
                         </div>
                     </div>
@@ -100,40 +100,38 @@
 
 <div class="page-section" id="bookAppointment">
     <div class="container">
-        <h1 class="text-center">Запази Час</h1>
+        <h1 class="text-center wow fadeInUp">Запази Час</h1>
         <form class="main-form mt-5">
             <div class="row">
-                <div class="col-12 col-md-6 mb-3">
+                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
                     <input type="text" class="form-control form-control-lg" placeholder="Цяло Име..">
                 </div>
-                <div class="col-12 col-md-6 mb-3">
+                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
                     <input type="text" class="form-control form-control-lg" placeholder="Имейл адрес..">
                 </div>
-                <div class="col-12 col-md-6 mb-3">
+                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
                     <input type="date" class="form-control form-control-lg" placeholder="Избери Дата">
                 </div>
-                <div class="col-12 col-md-6 mb-3">
+                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
                     <select name="departement" id="departement" class="form-control form-control-lg">
                         <option value="default" cardiology>Избери Специалист</option>
                         <option value="cardiology">Кардиолог</option>
                         <option value="ortoped">Ортопед</option>
                     </select>
                 </div>
-                <div class="col-12 mb-3">
+                <div class="col-12 mb-3 wow fadeInUp">
                     <input type="text" class="form-control form-control-lg" placeholder="Телефонен Номер..">
                 </div>
-                <div class="col-12 mb-3">
+                <div class="col-12 mb-3 wow fadeInUp">
                     <textarea name="message" id="message" class="form-control form-control-lg" rows="6" placeholder="Остави Бележка.."></textarea>
                 </div>
-                <div class="col-12">
+                <div class="col-12 wow fadeInUp">
                     <button type="submit" class="btn btn-primary custom-btn">Запази</button>
                 </div>
             </div>
         </form>
     </div> <!-- .container -->
 </div> <!-- .page-section -->
-
-<script src="{{ asset('js/main.js') }}"></script>
 
 @endsection
 

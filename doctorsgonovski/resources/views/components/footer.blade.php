@@ -1,9 +1,9 @@
 <footer class="page-footer pt-4">
     <div class="container-fluid">
-        <div class="row px-md-3 g-3">
+        <div class="row px-md-3 g-3 text-center text-md-left">
 
             <!-- Empty Column for Spacing -->
-            <div class="col-sm-3 col-lg-3 py-3">
+            <div class="col-sm-3 col-lg-3 py-3 d-none d-md-block">
                 <!-- Nothing here -->
             </div>
 
@@ -15,14 +15,8 @@
                 <a href="#" class="text-decoration-none d-block mb-3">healthcare@temporary.net</a>
             </div>
 
-
-            <!-- Empty Column for Spacing -->
-            <div class="col-sm-3 col-lg-3 py-3">
-                <!-- Nothing here -->
-            </div>
-
-               <!-- Социални мрежи Section -->
-               <div class="col-sm-3 col-lg-3 py-3 footer-icons">
+            <!-- Социални мрежи Section -->
+            <div class="col-sm-3 col-lg-3 py-3 footer-icons">
                 <h5>Социални мрежи</h5>
                 <div class="mt-3">
                     <a href="#" target="_blank" class="text-decoration-none me-2">
@@ -34,6 +28,16 @@
                 </div>
             </div>
 
+            <!-- Empty Column for Spacing -->
+            <div class="col-sm-3 col-lg-3 py-3 d-none d-md-block">
+                <!-- Nothing here -->
+            </div>
+        </div>
+
+        <!-- Horizontal rule and copyright notice -->
+        <hr>
+        <div class="text-center py-3">
+            &copy; {{ date('Y') }} Copyright by Doctor Gonovski
         </div>
     </div>
 </footer>
