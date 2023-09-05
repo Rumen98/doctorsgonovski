@@ -64,8 +64,8 @@
                         <div class="header">
                             <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-top">
                             <div class="meta">
-                                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="tel:+359899152547"><i class="fa-solid fa-phone"></i></a>
+                                <a href="https://wa.me/+359899152547"><i class="fa-brands fa-whatsapp"></i></a>
                             </div>
                         </div>
                         <div class="body mt-auto">
@@ -80,8 +80,8 @@
                         <div class="header">
                             <img src="{{ asset('images/doctors/gonovski.jpeg') }}">
                             <div class="meta">
-                                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="tel:+359899152547"><i class="fa-solid fa-phone"></i></a>
+                                <a href="https://wa.me/+359899152547"><i class="fa-brands fa-whatsapp"></i></a>
                             </div>
                         </div>
                         <div class="body mt-auto">
@@ -102,36 +102,13 @@
 <div class="page-section" id="bookAppointment">
     <div class="container">
         <h1 class="text-center wow fadeInUp">Запази Час</h1>
-        <form class="main-form mt-5">
-            <div class="row">
-                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
-                    <input type="text" class="form-control form-control-lg" placeholder="Цяло Име..">
-                </div>
-                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
-                    <input type="text" class="form-control form-control-lg" placeholder="Имейл адрес..">
-                </div>
-                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
-                    <input type="date" class="form-control form-control-lg" placeholder="Избери Дата">
-                </div>
-                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
-                    <select name="departement" id="departement" class="form-control form-control-lg">
-                        <option value="default" cardiology>Избери Специалист</option>
-                        <option value="cardiology">Кардиолог</option>
-                        <option value="ortoped">Ортопед</option>
-                    </select>
-                </div>
-                <div class="col-12 mb-3 wow fadeInUp">
-                    <input type="text" class="form-control form-control-lg" placeholder="Телефонен Номер..">
-                </div>
-                <div class="col-12 mb-3 wow fadeInUp">
-                    <textarea name="message" id="message" class="form-control form-control-lg" rows="6" placeholder="Остави Бележка.."></textarea>
-                </div>
-                <div class="col-12 wow fadeInUp">
-                    <button type="submit" class="btn btn-primary custom-btn">Запази</button>
-                </div>
-            </div>
-        </form>
+        <div class="col-12 wow fadeInUp" style="padding-top: 20px">
+            <a href="https://superdoc.bg/lekar/d-r-kristian-gonovski-9873" target="_blank">
+                <button type="button" class="btn btn-primary custom-btn">Запази</button>
+            </a>
+        </div>
     </div> <!-- .container -->
+
 </div> <!-- .page-section -->
 
 @endsection

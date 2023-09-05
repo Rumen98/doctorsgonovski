@@ -21,7 +21,7 @@
         Д-р Кристиян Гоновски, Ортопед, медицински услуги, кабинет, здраве, лечение,
         специалисти, кардиология, ортопедия">
 
-        <meta name="author" content="Д-р Иванка Кулевска-Гоновска, Д-р Кристиян Гоновски">
+        <meta name="author" content="Yordan Yordanov , Rumen Koychev">
 
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">

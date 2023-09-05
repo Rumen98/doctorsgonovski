@@ -68,8 +68,8 @@
                         <div class="header">
                             <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-top">
                             <div class="meta">
-                                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="tel:+359899152547"><i class="fa-solid fa-phone"></i></a>
+                                <a href="https://wa.me/+359899152547"><i class="fa-brands fa-whatsapp"></i></a>
                             </div>
                         </div>
                         <div class="body mt-auto">
@@ -84,8 +84,8 @@
                         <div class="header">
                             <img src="{{ asset('images/doctors/gonovski.jpeg') }}">
                             <div class="meta">
-                                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="tel:+359899152547"><i class="fa-solid fa-phone"></i></a>
+                                <a href="https://wa.me/+359899152547"><i class="fa-brands fa-whatsapp"></i></a>
                             </div>
                         </div>
                         <div class="body mt-auto">
