@@ -1375,6 +1375,13 @@ body {
     color: #fff;
   }
 
+  @media (max-width: 768px) {
+    .card-doctor .header .meta {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
   .card-doctor .header img {
     width: 100%;
   }
