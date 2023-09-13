@@ -67,7 +67,7 @@
                               </div>
                           </div>
                           <div class="body mt-auto">
-                              <p class="mb-0" style="font-size: 13px">Д-р Иванка Кулевска-Гоновска</p>
+                              <p class="mb-0" style="font-size: 14px">Д-р Иванка Кулевска-Гоновска</p>
                               <span class="text-sm text-grey">Кардиолог</span>
                               <a href="https://superdoc.bg/lekar/d-r-ivanka-kulevska-gonovska-9946" target="_blank" style="text-align: center;">
                                 <button type="button" class="btn btn-primary custom-btn" style="font-size: 10px;">Запази Час</button>
@@ -86,7 +86,7 @@
                               </div>
                           </div>
                           <div class="body mt-auto">
-                              <p class="mb-0" style="font-size: 13px">Д-р Кристиян Гоновски</p>
+                              <p class="mb-0" style="font-size: 14px">Д-р Кристиян Гоновски</p>
                               <span class="text-sm text-grey">Ортопед</span>
                               <a href="https://superdoc.bg/lekar/d-r-kristian-gonovski-9873" target="_blank" style="text-align: center;">
                                 <button type="button" class="btn btn-primary custom-btn" style="font-size: 10px;">Запази Час</button>
