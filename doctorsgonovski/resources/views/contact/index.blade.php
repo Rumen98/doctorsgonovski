@@ -1,18 +1,14 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="page-banner overlay-dark bg-image" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}}); background-size: cover; background-position: center;">
-    <div class="banner-section">
-        <div class="container text-center wow fadeInUp">
-            <nav aria-label="Breadcrumb">
-                <ol class="breadcrumb justify-content-center py-0 mb-2">
-                    <li class="breadcrumb-item"><a href="{{ route('main.index') }}" class="orange-text">Начало</a></li>
-                    <li class="breadcrumb-item active" aria-current="page" style="color: #fff;">Контакти</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-</div>
+<div class="page-hero bg-image overlay-dark responsive-container" style="position: relative;">
+    <video style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" muted autoplay loop>
+      <source src="{{ asset('images/videos/C2748.mp4') }}" type="video/mp4" />
+    </video>
+      <div class="content" style="position: relative; z-index: 1;">
+          <!-- Add your content here -->
+      </div>
+  </div>
 
 <div class="page-section">
     <div class="container">
