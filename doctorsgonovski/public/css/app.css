@@ -23707,6 +23707,22 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 10;
 }
 
+.responsive-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
 .page-banner {
   position: relative;
   height: 300px;
@@ -23875,6 +23891,12 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  .card-doctor .header .meta {
+    visibility: visible;
+    opacity: 1;
+  }
+}
 .card-doctor .header img {
   width: 100%;
 }
