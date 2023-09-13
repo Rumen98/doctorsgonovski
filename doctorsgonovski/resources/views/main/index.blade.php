@@ -103,7 +103,7 @@
       </div>
     </div>
 
-  <div class="page-section" id="bookAppointment">
+  {{-- <div class="page-section" id="bookAppointment">
       <div class="container">
           <h1 class="text-center wow fadeInUp">Д-р Иванка Кулевска-Гоновска</h1>
           <div class="col-12 wow fadeInUp" style="padding-top: 20px">
@@ -111,9 +111,9 @@
                   <button type="button" class="btn btn-primary custom-btn">Запази</button>
               </a>
           </div>
-      </div> <!-- .container -->
+      </div> <!-- .container --> --}}
 
-  </div> <!-- .page-section -->
+  {{-- </div> <!-- .page-section --> --}}
 
   @endsection
 
