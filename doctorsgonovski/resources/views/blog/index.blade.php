@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="page-banner overlay-dark bg-image" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}})";>
+{{-- <div class="page-banner overlay-dark bg-image" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}})";>
     <div class="banner-section">
       <div class="container text-center wow fadeInUp">
         <nav aria-label="Breadcrumb">
@@ -15,7 +15,7 @@
         </nav>
       </div> <!-- .container -->
     </div> <!-- .banner-section -->
-  </div> <!-- .page-banner -->
+  </div> <!-- .page-banner --> --}}
 
   <div class="page-section">
     <div class="container">

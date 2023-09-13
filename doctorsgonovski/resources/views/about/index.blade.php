@@ -18,9 +18,6 @@
                     <img src="{{ asset('/images/about/about_2.jpg') }}" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('/images/about/about_3.jpg') }}" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
                     <img src="{{ asset('/images/about/about_4.jpg') }}" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
@@ -31,6 +28,9 @@
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('/images/about/about_7.jpg') }}" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('/images/about/about_8.jpg') }}" class="d-block w-100">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
