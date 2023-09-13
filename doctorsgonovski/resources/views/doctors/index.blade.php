@@ -31,6 +31,9 @@
                         </ul>
                         <h6 class="heading-custom">Биография</h6>
                         <p class="description-custom">След своето дипломиране 2012 г. д-р Кулевска-Гоновска работи в УМБАЛ Царица Йоанна - ИСУЛ София, МЦ Димед и ДКЦ 6 Пловдив. Към момента приема пациенти в собствен кабинет в Пловдив и Асеновград и е част от екипа специалисти на ДКЦ Пълмед Пловдив. Владее английски и немски език.</p>
+                        <a href="https://superdoc.bg/lekar/d-r-ivanka-kulevska-gonovska-9946" target="_blank" style="text-align: center;">
+                            <button type="button" class="btn btn-primary custom-btn" style="font-size: 10px;">Запази Час</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -74,6 +77,9 @@
                             <strong>Биография</strong>
                             <p>След своето дипломиране през 2009 г. д-р Гоновски започва работа в УМБАЛ Пловдив. От 2016 г. до момента е част от екипа специалисти на МЦ 6 Пловдив. От 2017 г. практикува в УМБАЛ Еврохоспитал, Пловдив, а от 2019 г. работи като специалист ортопед-травматолог в УМБАЛ Пълмед Пловдив.</p>
                         </div>
+                        <a href="https://superdoc.bg/lekar/d-r-kristian-gonovski-9873" target="_blank" style="text-align: center;">
+                            <button type="button" class="btn btn-primary custom-btn" style="font-size: 10px;">Запази Час</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -83,17 +89,4 @@
       </div>
     </div> <!-- .container -->
   </div> <!-- .page-section -->
-
-<div class="page-section">
-    <div class="container">
-        <h1 class="text-center wow fadeInUp">Запази Час</h1>
-        <div class="col-12 wow fadeInUp" style="padding-top: 20px">
-            <a href="https://superdoc.bg/lekar/d-r-kristian-gonovski-9873" target="_blank">
-                <button type="button" class="btn btn-primary custom-btn">Запази</button>
-            </a>
-        </div>
-    </div> <!-- .container -->
-
-</div> <!-- .page-section -->
-
 @endsection
