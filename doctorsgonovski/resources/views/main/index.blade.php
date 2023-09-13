@@ -4,14 +4,9 @@
 
 @section('content')
 <div class="page-hero bg-image overlay-dark responsive-container">
-    <iframe
-        class="responsive-iframe"
-        src="https://www.youtube.com/embed/c6lOpsRHbTM?autoplay=1&controls=0&showinfo=0&modestbranding=1&rel=0&disablekb=1&mute=1&loop=1&playlist=c6lOpsRHbTM"
-        frameborder="0"
-        allow="autoplay; encrypted-media"
-        allowfullscreen
-        title="YouTube video player"
-    ></iframe>
+  <video style="width:100%;" height="" muted autoplay loop>
+    <source src="{{ asset('images/videos/C2748.mp4') }}" type="video/mp4" />
+  </video>
     <div class="content" style="position: relative; z-index: 1;">
         <!-- Add your content here -->
     </div>
