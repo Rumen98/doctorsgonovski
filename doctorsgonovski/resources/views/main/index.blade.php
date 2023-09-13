@@ -1,138 +1,119 @@
-@extends('layouts.main')
+  @extends('layouts.main')
 
-@section('title', 'Home Page')
+  @section('title', 'Home Page')
 
-@section('content')
-<div class="page-hero bg-image overlay-dark" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}}); background-size: cover; background-position: center;">
-  <div class="hero-section d-flex align-items-center justify-content-center" style="height: 100vh;">
-    <div class="container text-center wow zoomIn">
-      <span class="subhead">Добре Дошли в онлайн кабинета ни от</span>
-      <h1 class="display-4">Доктори Гоновски</h1>
-      <a href="#bookAppointment" class="btn btn-primary custom-btn">Запази час</a>
-    </div>
+  @section('content')
+  <div class="page-hero bg-image overlay-dark responsive-container" style="position: relative;">
+    <video style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" muted autoplay loop>
+      <source src="{{ asset('images/videos/C2748.mp4') }}" type="video/mp4" />
+    </video>
+      <div class="content" style="position: relative; z-index: 1;">
+          <!-- Add your content here -->
+      </div>
   </div>
-</div>
 
-
-  <div class="bg-light">
-    <div class="page-section py-3 mt-md-n5 custom-index">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-secondary text-white">
-                    <i class="fas fa-comment-medical"></i>
+    <div class="bg-light">
+      <div class="page-section py-3 mt-md-n5 custom-index">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card-service wow fadeInUp">
+                <div class="circle-shape bg-secondary text-white">
+                      <i class="fas fa-comment-medical"></i>
+                </div>
+                <p><span>Прегледи</span> от Кардиолог</p>
               </div>
-              <p><span>Прегледи</span> от Кардиолог</p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card-service wow fadeInUp">
+                <div class="circle-shape bg-primary text-white">
+                      <i class="fa-solid fa-shield-heart"></i>
+                </div>
+                <p><span>Прегледи</span> от Ортопед</p>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card-service wow fadeInUp">
+                <div class="circle-shape bg-accent text-white">
+                      <i class="fa-solid fa-stethoscope"></i>
+                </div>
+                <p><span>Винаги</span> на вашите нужди</p>
+              </div>
             </div>
           </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-primary text-white">
-                    <i class="fa-solid fa-shield-heart"></i>
-              </div>
-              <p><span>Прегледи</span> от Ортопед</p>
+        </div>
+      </div>
+
+      <div class="page-section pb-0">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 py-3 wow fadeInUp">
+              <h1>Добре Дошли в нашия<br> кабинет</h1>
+              <p class="text-grey mb-4">Предлагаме ви прегледи свързани с кардиологични
+                и ортопедични проблеми. Вашето здраве е най-важното нещо както за вас, така и за нас.
+              </p>
+              <a href="{{ route('about.index') }}" class="btn btn-primary custom-btn">Научете повече за нас</a>
             </div>
+
+            <div class="col-lg-6">
+              <div class="row">
+                  <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+                      <div class="card-doctor d-flex flex-column">
+                          <div class="header">
+                              <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-top">
+                              <div class="meta">
+                                  <a href="tel:+359899152547"><i class="fa-solid fa-phone"></i></a>
+                                  <a href="https://wa.me/+359899152547"><i class="fa-brands fa-whatsapp"></i></a>
+                              </div>
+                          </div>
+                          <div class="body mt-auto">
+                              <p class="mb-0" style="font-size: 13px">Д-р Иванка Кулевска-Гоновска</p>
+                              <span class="text-sm text-grey">Кардиолог</span>
+                                  <a href="https://superdoc.bg/lekar/d-r-ivanka-kulevska-gonovska-9946" target="_blank">
+                                      <button type="button" class="btn btn-primary custom-btn">Запази Час</button>
+                                  </a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+                      <div class="card-doctor d-flex flex-column">
+                          <div class="header">
+                              <img src="{{ asset('images/doctors/gonovski.jpeg') }}">
+                              <div class="meta">
+                                  <a href="tel:+359899152547"><i class="fa-solid fa-phone"></i></a>
+                                  <a href="https://wa.me/+359899152547"><i class="fa-brands fa-whatsapp"></i></a>
+                              </div>
+                          </div>
+                          <div class="body mt-auto">
+                              <p class="mb-0" style="font-size: 13px">Д-р Кристиян Гоновски</p>
+                              <span class="text-sm text-grey">Ортопед</span>
+                              <a href="https://superdoc.bg/lekar/d-r-kristian-gonovski-9873" target="_blank">
+                                <button type="button" class="btn btn-primary custom-btn">Запази Час</button>
+                            </a>  
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
           </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-accent text-white">
-                    <i class="fa-solid fa-stethoscope"></i>
-              </div>
-              <p><span>Винаги</span> на вашите нужди</p>
-            </div>
+
           </div>
         </div>
       </div>
     </div>
 
-    <div class="page-section pb-0">
+  {{-- <div class="page-section" id="bookAppointment">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 py-3 wow fadeInUp">
-            <h1>Добре Дошли в нашия<br> кабинет</h1>
-            <p class="text-grey mb-4">Предлагаме ви прегледи свързани с кардиологични
-              и ортопедични проблеми. Вашето здраве е най-важното нещо както за вас, така и за нас.
-            </p>
-            <a href="{{ route('about.index') }}" class="btn btn-primary custom-btn">Научете повече за нас</a>
+          <h1 class="text-center wow fadeInUp">Д-р Иванка Кулевска-Гоновска</h1>
+          <div class="col-12 wow fadeInUp" style="padding-top: 20px">
+              <a href="https://superdoc.bg/lekar/d-r-kristian-gonovski-9873" target="_blank">
+                  <button type="button" class="btn btn-primary custom-btn">Запази</button>
+              </a>
           </div>
+      </div> <!-- .container --> --}}
 
-          <div class="col-lg-6">
-            <div class="row">
-                <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
-                    <div class="card-doctor d-flex flex-column">
-                        <div class="header">
-                            <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-top">
-                            <div class="meta">
-                                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                            </div>
-                        </div>
-                        <div class="body mt-auto">
-                            <p class="mb-0" style="font-size: 13px">Д-р Иванка Кулевска-Гоновска</p>
-                            <span class="text-sm text-grey">Кардиолог</span>
-                        </div>
-                    </div>
-                </div>
+  {{-- </div> <!-- .page-section --> --}}
 
-                <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
-                    <div class="card-doctor d-flex flex-column">
-                        <div class="header">
-                            <img src="{{ asset('images/doctors/gonovski.jpeg') }}">
-                            <div class="meta">
-                                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                            </div>
-                        </div>
-                        <div class="body mt-auto">
-                            <p class="mb-0" style="font-size: 13px">Д-р Кристиян Гоновски</p>
-                            <span class="text-sm text-grey">Ортопед</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-<div class="page-section" id="bookAppointment">
-    <div class="container">
-        <h1 class="text-center wow fadeInUp">Запази Час</h1>
-        <form class="main-form mt-5">
-            <div class="row">
-                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
-                    <input type="text" class="form-control form-control-lg" placeholder="Цяло Име..">
-                </div>
-                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
-                    <input type="text" class="form-control form-control-lg" placeholder="Имейл адрес..">
-                </div>
-                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
-                    <input type="date" class="form-control form-control-lg" placeholder="Избери Дата">
-                </div>
-                <div class="col-12 col-md-6 mb-3 wow fadeInUp">
-                    <select name="departement" id="departement" class="form-control form-control-lg">
-                        <option value="default" cardiology>Избери Специалист</option>
-                        <option value="cardiology">Кардиолог</option>
-                        <option value="ortoped">Ортопед</option>
-                    </select>
-                </div>
-                <div class="col-12 mb-3 wow fadeInUp">
-                    <input type="text" class="form-control form-control-lg" placeholder="Телефонен Номер..">
-                </div>
-                <div class="col-12 mb-3 wow fadeInUp">
-                    <textarea name="message" id="message" class="form-control form-control-lg" rows="6" placeholder="Остави Бележка.."></textarea>
-                </div>
-                <div class="col-12 wow fadeInUp">
-                    <button type="submit" class="btn btn-primary custom-btn">Запази</button>
-                </div>
-            </div>
-        </form>
-    </div> <!-- .container -->
-</div> <!-- .page-section -->
-
-@endsection
+  @endsection
 

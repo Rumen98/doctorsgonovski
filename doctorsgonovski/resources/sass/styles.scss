@@ -50,7 +50,7 @@ body {
   }
 
   .text-sm {
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
 
   .text-md {
@@ -1375,12 +1375,19 @@ body {
     color: #fff;
   }
 
+  @media (max-width: 768px) {
+    .card-doctor .header .meta {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
   .card-doctor .header img {
     width: 100%;
   }
 
   .card-doctor .body {
-    padding: 15px 20px;
+    padding: 4px 20px;
   }
 
   @media (min-width: 768px) {
@@ -1922,9 +1929,69 @@ i.fa-brands {
 }
 
 
+
+.card-img-custom {
+    max-width: 100%;
+}
+
+.text-grey-custom {
+    color: grey;
+}
+
+.mb-0-custom {
+    margin-bottom: 0;
+}
+
+.text-sm-custom {
+    font-size: 12px;
+}
+
+.heading-custom {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ul-style-custom {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+.ul-li-custom {
+    font-size: 12px;
+    margin-bottom: 0.25rem;
+}
+
+.description-custom {
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.description-section-custom {
+    font-size: 12px;
+}
+
+.description-strong-custom {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.description-p-custom {
+    margin-bottom: 0.5rem;
+}
+
 /* This will apply styles for screens smaller than 768px in width, typically tablets and mobile devices. Adjust the value if necessary */
 // @media (max-width: 767px) {
 //     .page-hero {
-//         background-image: none !important;
+//         background-image: url("../../public/images/doctors/doctor_1.jpg") !important
 //     }
 // }
+
+//
+
+
+.carousel-inner img {
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+}

@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="page-banner overlay-dark bg-image" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}});">
+<div class="page-banner overlay-dark bg-image" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}}); background-size: cover; background-position: center;">
     <div class="banner-section">
         <div class="container text-center wow fadeInUp">
             <nav aria-label="Breadcrumb">
