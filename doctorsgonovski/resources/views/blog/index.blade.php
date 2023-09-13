@@ -13,7 +13,7 @@
             <li class="breadcrumb-item active" aria-current="page">Блог</li>
           </ol>
         </nav>
-      </div> <!-- .container -->
+      </div> <!-- .container -->  
     </div> <!-- .banner-section -->
   </div> <!-- .page-banner --> --}}
 
@@ -28,13 +28,14 @@
                   <div class="post-category">
                     <a href="#">Ковид 19</a>
                   </div>
-                  <a href="blog-details" class="post-thumb">
+                  <a href="{{ route('detail_1') }}" class="post-thumb">
                     <img src="{{ asset('images/blog/blog_4.jpg') }}" alt="blog_4">
-                  </a>
+                </a>
                 </div>
                 <div class="body">
                   <h5 class="post-title">
-                    <a href="blog-details.html">Лист с държавите с най-много заразени</a></h5>
+                    <a href="blog-details.html">Пловдивско семейство лекари от Битоля: 
+                      Заклели сме се, че ще помагаме на хората независимо от времето и мястото</a></h5>
                 </div>
               </div>
             </div>
