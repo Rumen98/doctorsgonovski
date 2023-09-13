@@ -23707,22 +23707,6 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 10;
 }
 
-.responsive-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-}
-
-.responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-
 .page-banner {
   position: relative;
   height: 300px;
@@ -24469,3 +24453,8 @@ i.fa-brands {
 }
 
 /* This will apply styles for screens smaller than 768px in width, typically tablets and mobile devices. Adjust the value if necessary */
+.carousel-inner img {
+  max-width: 500px;
+  max-height: 500px;
+  margin: auto;
+}
