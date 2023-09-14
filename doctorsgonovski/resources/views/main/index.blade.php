@@ -48,8 +48,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 py-3 wow fadeInUp">
-              <h1>Добре Дошли в нашия<br> кабинет</h1>
-              <p class="text-grey mb-4">Предлагаме ви прегледи свързани с кардиологични
+              <p class="text-grey mb-4" style="font-size: 2em;">Предлагаме ви прегледи свързани с кардиологични
                 и ортопедични проблеми. Вашето здраве е най-важното нещо както за вас, така и за нас.
               </p>
               <a href="{{ route('about.index') }}" class="btn btn-primary custom-btn">Научете повече за нас</a>
@@ -79,7 +78,7 @@
                   <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
                       <div class="card-doctor d-flex flex-column">
                           <div class="header">
-                              <img src="{{ asset('images/doctors/gonovski.jpeg') }}">
+                              <img src="{{ asset('images/doctors/gonovski.jpg') }}">
                               <div class="meta">
                                   <a href="tel:+359899152547"><i class="fa-solid fa-phone"></i></a>
                                   <a href="https://wa.me/+359899152547"><i class="fa-brands fa-whatsapp"></i></a>

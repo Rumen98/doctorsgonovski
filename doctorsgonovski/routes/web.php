@@ -30,3 +30,9 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact.index
 Route::get('/blog-details', [BlogDetailsController::class, 'index'])->name('blog-details.index');
 Route::get('/doctors', [DoctorsController::class, 'index'])->name('doctors.index');
 
+Route::get('blog-details/detail_1', [BlogDetailsController::class, 'showDetail1'])->name('detail_1');
+Route::get('blog-details/detail_2', [BlogDetailsController::class, 'showDetail2'])->name('detail_2');
+Route::get('blog-details/detail_3', [BlogDetailsController::class, 'showDetail3'])->name('detail_3');
+Route::get('blog-details/detail_4', [BlogDetailsController::class, 'showDetail4'])->name('detail_4');
+
+

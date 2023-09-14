@@ -10,7 +10,7 @@
             <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
                 <div class="card-doctor d-flex flex-column">
                     <div class="header">
-                        <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-custom">
+                        <img src="{{ asset('images/doctors/gonovskaa.jpg') }}" class="card-img-custom">
                         <div class="meta">
                             <a href="tel:+359899152547"><i class="fa-solid fa-phone"></i></a>
                             <a href="https://wa.me/+359899152547"><i class="fa-brands fa-whatsapp"></i></a>
@@ -41,7 +41,7 @@
             <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
                 <div class="card-doctor d-flex flex-column">
                     <div class="header">
-                        <img src="{{ asset('images/doctors/gonovski.jpeg') }}">
+                        <img src="{{ asset('images/doctors/gonovski.jpg') }}">
                         <div class="meta">
                             <a href="tel:+359899152547"><i class="fa-solid fa-phone"></i></a>
                             <a href="https://wa.me/+359899152547"><i class="fa-brands fa-whatsapp"></i></a>

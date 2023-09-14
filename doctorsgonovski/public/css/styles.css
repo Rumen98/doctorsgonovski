@@ -1430,7 +1430,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .blog-details .post-title {
   margin-bottom: 24px;
-  font-weight: 400;
+  font-weight: 100;
 }
 
 .blog-details .post-content {
