@@ -26,16 +26,16 @@
               <div class="card-blog">
                 <div class="header">
                   <div class="post-category">
-                    <a href="#">Ковид 19</a>
+                    {{-- <a href="#">Ковид 19</a> --}}
                   </div>
                   <a href="{{ route('detail_1') }}" class="post-thumb">
-                    <img src="{{ asset('images/blog/blog_4.jpg') }}" alt="blog_4">
+                    <img src="{{ asset('images/blog/26.jpg') }}" alt="blog_4">
                 </a>
                 </div>
                 <div class="body">
                   <h5 class="post-title">
-                    <a href="blog-details.html">Пловдивско семейство лекари от Битоля: 
-                      Заклели сме се, че ще помагаме на хората независимо от времето и мястото</a></h5>
+                    <a href="{{ route('detail_1') }}"> 
+                      "Заклели сме се, че ще помагаме на хората независимо от времето и мястото"</a></h5>
                 </div>
               </div>
             </div>
@@ -44,15 +44,15 @@
               <div class="card-blog">
                 <div class="header">
                   <div class="post-category">
-                    <a href="#">Витамини</a>
+                    {{-- <a href="#">Витамини</a> --}}
                   </div>
-                  <a href="blog-details" class="post-thumb">
-                    <img src="{{ asset('images/blog/blog_3.jpg') }}" alt="blog_3">
+                  <a href="{{ route('detail_2') }}" class="post-thumb">
+                    <img src="{{ asset('images/blog/orto.jpg') }}" alt="blog_3">
                   </a>
                 </div>
                 <div class="body">
                   <h5 class="post-title">
-                    <a href="blog-details.html">Какви витамини трябва да приемаме?</a></h5>
+                    <a href="{{ route('detail_2') }}"> Профилактиката на опорно-двигателния апарат на бебето</a></h5>
                 </div>
               </div>
             </div>
@@ -61,20 +61,20 @@
                 <div class="card-blog">
                     <div class="header">
                       <div class="post-category">
-                        <a href="#">Ковид 19</a>
+                        {{--  <a href="#"></a> --}}
                       </div>
-                      <a href="blog-details" class="post-thumb">
+                      <a href="{{ route('detail_3') }}" class="post-thumb">
                         <img src="{{ asset('images/blog/blog_2.jpg') }}" alt="blog_2">
                       </a>
                     </div>
                     <div class="body">
                       <h5 class="post-title">
-                        <a href="blog-details.html">Лист с държавите с най-много заразени</a></h5>
+                        <a href="{{ route('detail_3') }}">Плазмотерапията е приложима при всички възпалителни ортопедични заболявания</a></h5>
                     </div>
                   </div>
             </div>
 
-            <div class="col-sm-6 py-3">
+            {{-- <div class="col-sm-6 py-3">
                 <div class="card-blog">
                     <div class="header">
                       <div class="post-category">
@@ -89,7 +89,7 @@
                         <a href="blog-details.html">Най-честите проблеми с нервната система</a></h5>
                     </div>
                   </div>
-            </div>
+            </div> --}}
 
 
             {{-- <div class="col-12 my-5">

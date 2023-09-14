@@ -1,23 +1,83 @@
 @extends('layouts.main')
 
-@section('content')
+@section('content') 
+<style>
+    .page-section {
+        font-family: 'Arial, sans-serif';
+        color: #333;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .post-thumb {
+        display: block;
+        margin: 0 auto 20px auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .post-thumb img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .post-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #ff6600; /* You mentioned liking orange earlier */
+    }
+    .post-content {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+</style>
 <div class="page-section pt-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
           <article class="blog-details">
             <div class="post-thumb">
-                <img src="{{ asset('images/blog/blog_3.jpg') }}" alt="blog_3">
+                <img src="{{ asset('images/blog/plazmo.jpg') }}" alt="blog_3">
             </div>
-            <h2 class="post-title h1">List of Countries without Coronavirus case</h2>
+            <h2 class="post-title h1">Какво е плазмотерапията</h2>
             <div class="post-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet est vel orci luctus sollicitudin. Duis eleifend vestibulum justo, varius semper lacus condimentum dictum. Donec pulvinar a magna ut malesuada. In posuere felis diam, vel sodales metus accumsan in. Duis viverra dui eu pharetra pellentesque. Donec a eros leo. Quisque sed ligula vitae lorem efficitur faucibus. Praesent sit amet imperdiet ante. Nulla id tellus auctor, dictum libero a, malesuada nisi. Nulla in porta nibh, id vestibulum ipsum. Praesent dapibus tempus erat quis aliquet. Donec ac purus id sapien condimentum feugiat.</p>
+              <p>
+                Методът „плазмотерапия“ е иновационен и най-общо представлява инжекционно 
+                въвеждане на специална плазма в тъканите на пациента, обогатена с тромбоцити, 
+                като целта е локална стимулация на регенераторните процеси.
 
-              <p>Praesent vel mi bibendum, finibus leo ac, condimentum arcu. Pellentesque sem ex, tristique sit amet suscipit in, mattis imperdiet enim. Integer tempus justo nec velit fringilla, eget eleifend neque blandit. Sed tempor magna sed congue auctor. Mauris eu turpis eget tortor ultricies elementum. Phasellus vel placerat orci, a venenatis justo. Phasellus faucibus venenatis nisl vitae vestibulum. Praesent id nibh arcu. Vivamus sagittis accumsan felis, quis vulputate</p>
+              В Отделението по ортопедия и травматология на пловдивската университетска 
+              частна болница методът успешно се прилага вече от година, 
+              като през последните шест месеца търсенето му от пациентите 
+              с възпалителни заболявания е особено активно. 
+              Това е така, защото терапията дава силно положителен резултат, 
+              а е почти без странични ефекти. 
+              „Всъщност в УМБАЛ „Пълмед“ възстановяваваме стави, сухожилия и меки тъкани 
+              с помощта на плазмотерапия“, заключава д-р Гоновски.
+              </p>
+              <p>
+                
+            Доктор Гоновски обаче предупреждава, 
+            че както при всяка друга манипулация с цел инжектиране на вещества, 
+            и при плазмотерапията се срещат противопоказания при прилагането й.
+            Тя не се препоръчва на пациенти с туморни заболявания, с тромбоцитопении,
+             при грип или инфекциозни заболявания.
+              Честотата на процедурите в общия случай варира между една и три.
+               Те се извършват през седмица в период от един месец. 
+               За настъпване на ефект може да са нужни няколко инжекции на сесия, 
+            както и няколко сесии в продължение на 3 до 6 месеца, 
+            обяснява още д-р Кристиян Гоновски.
+              </p>
+              Важно е обаче да се отбележи, че сама по себе си плазмотерапията не е еликсир, който непременно лекува всякакви ортопедични и травматологични заболявания. Целта на прилагането на този иновационен метод е да се сведе до минимум количеството 
+              на приеманите от пациентите обезболяващи и противовъзпалителни медикаменти.
+              <p>
+                
+              </p>
             </div>
           </article> <!-- .blog-details -->
         </div>
       </div> <!-- .row -->
     </div> <!-- .container -->
   </div> <!-- .page-section -->
-@endsection
+@endsection 
+   

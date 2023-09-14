@@ -1,23 +1,71 @@
 @extends('layouts.main')
 
-@section('content')
+@section('content') 
+<style>
+    .page-section {
+        font-family: 'Arial, sans-serif';
+        color: #333;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .post-thumb {
+        display: block;
+        margin: 0 auto 20px auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .post-thumb img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .post-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #ff6600; /* You mentioned liking orange earlier */
+    }
+    .post-content {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+</style>
 <div class="page-section pt-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
           <article class="blog-details">
             <div class="post-thumb">
-                <img src="{{ asset('images/blog/blog_3.jpg') }}" alt="blog_3">
+                <img src="{{ asset('images/blog/orto.jpg') }}" alt="blog_3">
             </div>
-            <h2 class="post-title h1">List of Countries without Coronavirus case</h2>
+            <h2 class="post-title h1">Профилактика на опорно-двигателния апарат на бебето</h2>
             <div class="post-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet est vel orci luctus sollicitudin. Duis eleifend vestibulum justo, varius semper lacus condimentum dictum. Donec pulvinar a magna ut malesuada. In posuere felis diam, vel sodales metus accumsan in. Duis viverra dui eu pharetra pellentesque. Donec a eros leo. Quisque sed ligula vitae lorem efficitur faucibus. Praesent sit amet imperdiet ante. Nulla id tellus auctor, dictum libero a, malesuada nisi. Nulla in porta nibh, id vestibulum ipsum. Praesent dapibus tempus erat quis aliquet. Donec ac purus id sapien condimentum feugiat.</p>
+              <p>
+                Профилактиката на опорно-двигателния апарат на бебето започва още от раждането,
+                 а не чак когато то навърши 5-6 месеца, категоричен е д-р Кристиян Гоновски
+              </p>
+              <p>
+                Изключително важна при малките деца е употребата на обувки с твърди подметки,
+                 както и при всяка възможност те да бъдат оставени да ходят боси, 
+                 тъй като неравностите „дразнят“ рецепторите на стъпалата и 
+                 правят профилактика при т.н. плоскостъпие. 
+              </p>
 
-              <p>Praesent vel mi bibendum, finibus leo ac, condimentum arcu. Pellentesque sem ex, tristique sit amet suscipit in, mattis imperdiet enim. Integer tempus justo nec velit fringilla, eget eleifend neque blandit. Sed tempor magna sed congue auctor. Mauris eu turpis eget tortor ultricies elementum. Phasellus vel placerat orci, a venenatis justo. Phasellus faucibus venenatis nisl vitae vestibulum. Praesent id nibh arcu. Vivamus sagittis accumsan felis, quis vulputate</p>
+              <p>
+                Първият профилактичен ортопедичен преглед се прави най-късно 6-8 седмица от раждането.
+                 Прегледът включва клиничен преглед на горни и долни крайници, гръбначен стълб, 
+                 както и ехография на тазобедрените стави. 
+                Търсят се вродени заболявания на опорно-двигателния апарат, 
+                най-вече дисплазия или луксация на тазобедрените стави. 
+                Най-новите препоръки насочват този преглед да се провежда още в родилното, 
+                преди изписване, като след това не се налага извършването му на 2-месечна възраст.
+              </p>
             </div>
           </article> <!-- .blog-details -->
         </div>
       </div> <!-- .row -->
     </div> <!-- .container -->
   </div> <!-- .page-section -->
-@endsection
+@endsection 
+   
