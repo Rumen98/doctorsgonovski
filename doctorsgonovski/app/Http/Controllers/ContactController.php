@@ -34,7 +34,7 @@ class ContactController extends Controller
         // $data = $request->except('_token', 'anotherFieldToExclude');
 
         // Send the email
-        Mail::to('nothingstar142@gmail.com')->send(new ContactFormMailable($data));
+        Mail::to('kristijangonovski@gmail.com')->send(new ContactFormMailable($data));
 
         // Return a JSON response
         return response()->json(['message' => 'Thank you for contacting us!'], 200);

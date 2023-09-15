@@ -17,25 +17,17 @@
                border-radius: 10px;
                box-shadow: 0 0 10px rgba(0,0,0,0.1);
            }
-    .carousel-item {
-       height: 500px; /* Adjust based on your preference */
-       overflow: hidden;
-   }
-   
-   .carousel-item img {
-       height: 100%;
-       width: auto;
-       max-width: none;
-   }
+
    </style>
     <div class="container mt-5 pb-5">
         <div class="text-center mb-4">
-            <h1>Добре дошли в нашия медицински кабинет, 
-                където вашето здраве и благополучие са на първо място. 
-                С голямо удоволствие ви представяме нашите водещи специалисти, 
-                които са посветени на задълбочените медицински прегледи и индивидуален 
+            <h1 class="custom-h1-style">Добре дошли в нашия медицински кабинет,
+                където вашето здраве и благополучие са на първо място.
+                С голямо удоволствие ви представяме нашите водещи специалисти,
+                които са посветени на задълбочените медицински прегледи и индивидуален
                 подход към всеки пациент.</h1>
         </div>
+
 
 
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
