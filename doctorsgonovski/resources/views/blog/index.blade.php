@@ -4,19 +4,6 @@
 
 @section('content')
 
-{{-- <div class="page-banner overlay-dark bg-image" style="background-image: url({{url('images/doctors/cabinet_new.jpg')}})";>
-    <div class="banner-section">
-      <div class="container text-center wow fadeInUp">
-        <nav aria-label="Breadcrumb">
-          <ol class="breadcrumb breadcrumb-dark bg-transparent justify-content-center py-0 mb-2">
-            <li class="breadcrumb-item"><a href="{{ route('main.index') }}" class="orange-text">Начало</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Блог</li>
-          </ol>
-        </nav>
-      </div> <!-- .container -->  
-    </div> <!-- .banner-section -->
-  </div> <!-- .page-banner --> --}}
-
   <div class="page-section">
     <div class="container">
       <div class="row">
@@ -34,7 +21,7 @@
                 </div>
                 <div class="body">
                   <h5 class="post-title">
-                    <a href="{{ route('detail_1') }}"> 
+                    <a href="{{ route('detail_1') }}">
                       "Заклели сме се, че ще помагаме на хората независимо от времето и мястото"</a></h5>
                 </div>
               </div>

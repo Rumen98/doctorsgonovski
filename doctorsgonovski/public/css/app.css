@@ -24487,10 +24487,158 @@ i.fa-brands {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.font-lato {
-  font-family: "Lato", sans-serif;
+.responsive-container {
+  position: relative;
 }
 
-.font-open-sans {
-  font-family: "Open Sans", sans-serif;
+.video_style {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.google-maps-custom {
+  max-width: 800px;
+  width: 100%;
+}
+
+.email-container {
+  font-family: "Arial", sans-serif;
+  padding: 40px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.email-content {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px 40px 60px 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.email-header {
+  border-bottom: 2px solid #ff7f00;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  color: #ff7f00;
+  font-size: 24px;
+}
+
+.email-subheader {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.email-icon {
+  color: #ff7f00;
+}
+
+.email-highlight {
+  color: #ff7f00;
+  font-weight: normal;
+}
+
+.email-text {
+  margin-bottom: 10px;
+}
+
+.email-strong-text {
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.email-details {
+  color: #7f8c8d;
+  font-size: 18px;
+}
+
+.email-message-header {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.email-message-body {
+  background-color: #fff3e5;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 1px solid #ff7f00;
+  margin-bottom: 20px;
+}
+
+.email-signature {
+  margin-bottom: 40px;
+}
+
+.page-section {
+  font-family: "Arial, sans-serif";
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-thumb {
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.post-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ff6600; /* You mentioned liking orange earlier */
+}
+
+.post-content {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.font-roboto-serif {
+  font-family: "Roboto Serif", serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-2rem {
+  font-size: 2rem;
+}
+
+.font-07em {
+  font-size: 0.7em;
+}
+
+.font-8em {
+  font-size: 0.875em;
+}
+
+.font-11em {
+  font-size: 0.6875em;
 }

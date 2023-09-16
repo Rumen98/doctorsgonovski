@@ -3,25 +3,10 @@
 @section('title', 'About Us')
 
 @section('content')
-<style>
-    .container h1 {
-               font-size: 1.5rem;
-               line-height: 1.4;
-               font-family: 'Arial, sans-serif';
-               text-align: center;
-               margin: 0 auto 20px auto;
-               max-width: 750px;
-               color: #333;
-               background-color: #f9f9f9;
-               padding: 20px;
-               border-radius: 10px;
-               box-shadow: 0 0 10px rgba(0,0,0,0.1);
-           }
 
-   </style>
     <div class="container mt-5 pb-5">
         <div class="text-center mb-4">
-            <h1 class="custom-h1-style">Добре дошли в нашия медицински кабинет,
+            <h1 class="custom-h1-style font-roboto">Добре дошли в нашия медицински кабинет,
                 където вашето здраве и благополучие са на първо място.
                 С голямо удоволствие ви представяме нашите водещи специалисти,
                 които са посветени на задълбочените медицински прегледи и индивидуален
