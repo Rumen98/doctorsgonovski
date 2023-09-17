@@ -23707,6 +23707,11 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 10;
 }
 
+@media (max-width: 768px) {
+  .page-hero {
+    height: 200px !important;
+  }
+}
 .page-banner {
   position: relative;
   height: 300px;
@@ -24501,6 +24506,13 @@ i.fa-brands {
      object-fit: cover;
 }
 
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+  .video_style {
+    max-width: 100%; /* You can adjust this width to your preference */
+    height: auto;
+  }
+}
 .content {
   position: relative;
   z-index: 1;
@@ -24613,6 +24625,54 @@ i.fa-brands {
 .post-content {
   font-size: 1rem;
   line-height: 1.6;
+}
+
+.outer-container {
+  font-family: "Arial", sans-serif;
+  padding: 40px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.inner-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px 40px 60px 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-section {
+  border-bottom: 2px solid #ff7f00;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  color: #ff7f00;
+  font-size: 24px;
+}
+
+.medical-cabinet-name {
+  font-weight: bold;
+}
+
+.header-icon {
+  color: #ff7f00;
+}
+
+.greeting-text,
+.thank-you-text,
+.additional-info-text,
+.goodbye-text,
+.signature-text {
+  font-size: 18px;
+}
+
+.response-text {
+  background-color: #fff3e5;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 1px solid #ff7f00;
 }
 
 .font-roboto-serif {
