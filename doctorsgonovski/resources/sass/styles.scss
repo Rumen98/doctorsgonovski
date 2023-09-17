@@ -1203,6 +1203,12 @@ body {
     z-index: 10;
   }
 
+  @media (max-width: 768px) {
+    .page-hero {
+        height: 200px !important;
+    }
+}
+
   .page-banner {
     position: relative;
     height: 300px;
@@ -2031,6 +2037,16 @@ i.fa-brands {
     height: 100%;
     object-fit: cover;
 }
+
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    .video_style {
+        max-width: 100%; /* You can adjust this width to your preference */
+        height: auto;
+    }
+}
+
 
 .content {
     position: relative;
