@@ -24660,6 +24660,8 @@ i.fa-brands {
 }
 
 .greeting-text,
+.thank-you-text,
+.additional-info-text,
 .goodbye-text,
 .signature-text {
   font-size: 18px;
