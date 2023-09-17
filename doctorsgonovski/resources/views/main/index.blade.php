@@ -62,7 +62,7 @@
                             <!-- Card 1 -->
                             <div class="card-doctor d-flex flex-column">
                                 <div class="header">
-                                    <img src="{{ asset('images/doctors/gonovska.jpg') }}" class="card-img-top">
+                                    <img src="{{ asset('images/doctors/gonovskaa.jpg') }}" class="card-img-top">
                                     <div class="meta">
                                         <a href="tel:+359899152547"><i class="fa-solid fa-phone"></i></a>
                                         <a href="https://wa.me/+359899152547"><i class="fa-brands fa-whatsapp"></i></a>
