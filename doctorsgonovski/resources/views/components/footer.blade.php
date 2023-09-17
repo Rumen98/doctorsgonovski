@@ -23,7 +23,7 @@
                 <div class="col-sm-3 col-lg-3 py-3 text-center">
                     <h5 class="text-center font-roboto-serif">Социални мрежи</h5>
                     <div class="mt-2 text-center font-lato">
-                        <a href="#" target="_blank" class="text-decoration-none me-2">
+                        <a href="https://www.facebook.com/profile.php?id=61551589160117" target="_blank" class="text-decoration-none me-2">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
                         <a href="#" target="_blank" class="text-decoration-none me-2">
