@@ -6,6 +6,16 @@
 
         <title>Doctors Gonovski</title>
 
+        <!-- For desktop browsers -->
+        <link rel="icon" href="{{ asset('images/logo_heart_ico.ico') }}" type="image/x-icon">
+
+        <!-- For Android Chrome -->
+        <link rel="icon" href="{{ asset('images/logo_heart-1.png') }}" type="image/x-icon" sizes="192x192">
+
+        <!-- For iPhone and Apple devices -->
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/logo_heart-1.png') }}" sizes="180x180">
+
+
         <meta charset="UTF-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
