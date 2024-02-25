@@ -2002,14 +2002,14 @@ i.fa-brands {
 }
 
 .carousel-item {
-    height: 500px; /* Adjust based on your preference */
+    height: auto;
     overflow: hidden;
 }
 
 .carousel-item img {
-    height: 100%;
-    width: auto;
-    max-width: none;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .custom-h1-style {
