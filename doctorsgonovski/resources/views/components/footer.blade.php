@@ -44,8 +44,8 @@
         <div class="text-center py-3 font-roboto-serif-serif">
             &copy; {{ date('Y') }} Copyright by
             <a href="https://superdoc.bg/lekar/d-r-kristian-gonovski-9873" target="_blank" class="text-decoration-none font-roboto-serif-serif">Doctor Gonovski</a> |
-            Created by <a href="https://www.linkedin.com/in/yordan-yordanov-19185a223/" target="_blank" class="text-decoration-none font-roboto-serif-serif">Yordan Yordanov</a> &
-            <a href="https://www.linkedin.com/in/rumen-koychev-b4915b165/" target="_blank" class="text-decoration-none font-roboto-serif-serif">Rumen Koychev</a>
+            {{-- Created by <a href="https://www.linkedin.com/in/yordan-yordanov-19185a223/" target="_blank" class="text-decoration-none font-roboto-serif-serif">Yordan Yordanov</a> & --}}
+            {{-- <a href="https://www.linkedin.com/in/rumen-koychev-b4915b165/" target="_blank" class="text-decoration-none font-roboto-serif-serif">Rumen Koychev</a> --}}
         </div>
     </div>
 </footer>
